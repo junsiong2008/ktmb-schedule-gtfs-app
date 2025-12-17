@@ -2,6 +2,13 @@
 
 This monorepo contains the full stack for the KTMB0t application, designed to provide enhanced train schedule information and automation.
 
+### Context
+This project was inspired by the need to build a personal KTM Komuter train schedule app. The official KTM Komuter timetable is provided as PDFs on the KTMB website, which are cumbersome to use on mobile devices due to excessive zooming and scrolling.
+
+## Data Source & Quality Disclaimer
+
+This project currently relies on GTFS static data, but due to significant quality issues, an alternative approach is being developed to scrap data directly from PDF tables on the KTMB website.
+
 ## Project Structure
 
 - **`ktmb_api`**: Node.js Backend API (Port 3000). Handles data serving and schedule logic.
